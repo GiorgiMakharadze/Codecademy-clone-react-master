@@ -1,0 +1,55 @@
+.bottomFooterContainer {
+  display: flex;
+  justify-content: space-between;
+
+  width: 130rem;
+
+  position: relative;
+  bottom: 7rem;
+
+  right: 31rem;
+
+  border-top: 1px solid #000;
+}
+
+.bottomFooterTxt {
+  position: relative;
+  top: 1rem;
+  font-size: 1.9rem;
+}
+
+.policysContainer {
+  display: flex;
+  gap: 0.5rem;
+
+  position: relative;
+  top: 3rem;
+}
+
+.bottomTxt {
+  position: relative;
+  bottom: 2rem;
+  font-size: 1.9rem;
+}
+
+.giorgi {
+  font-weight: bold;
+  font-size: 1.9rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #3a10e5;
+}
+
+.copyright {
+  position: relative;
+  top: 1rem;
+  right: 30rem;
+
+  font-size: 3rem;
+  font-weight: bold;
+}

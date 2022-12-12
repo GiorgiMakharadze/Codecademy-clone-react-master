@@ -1,0 +1,25 @@
+.resourceContainer {
+  display: flex;
+  gap: 3rem;
+
+  margin-top: 2rem;
+}
+
+.resourcesImg {
+  height: 17rem;
+  width: 27rem;
+}
+
+.resourcesLink {
+  font-size: 1.5rem;
+  color: #3a10e5;
+}
+
+.resourcesHeader {
+  font-size: 1.8rem;
+}
+
+.resourcesHeader:hover {
+  color: #3a10e5;
+  cursor: pointer;
+}

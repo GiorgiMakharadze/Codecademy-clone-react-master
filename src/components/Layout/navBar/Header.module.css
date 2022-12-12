@@ -1,0 +1,101 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  background-color: #fff;
+  border-bottom: 0.1rem solid #000;
+  width: 191rem;
+  position: relative;
+ 
+  font-size: 4rem;
+}
+
+.nav__bar {
+  display: flex;
+  align-items: center;
+  
+  width: 100%;
+  gap: 2.5rem;
+}
+
+.img__nav {
+  width: 15rem;
+  height: 80%;
+  margin-left: 15%;
+}
+
+.nav__btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 15%;
+  gap: 1rem;
+}
+
+.logIn__btn {
+  background-color: #fff;
+  border: #fff;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 0.4rem;
+  cursor: pointer;
+}
+
+.logIn__btn:hover {
+  color: #3a10e5;
+  transition: all 0.1s linear;
+  background-color: #fff0e5;
+  border-radius: 0.7rem;
+}
+
+.signUp__btn2 {
+  background-color: #3a10e5;
+  border: #fff;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 4rem;
+  min-width: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signUp__btn2:hover {
+  background-color: #5533ff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #3a10e5;
+}
+
+@media (max-width: 389px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    
+    width: 155rem;
+    
+  }
+}
+
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{.nav{
+position: relative;
+width: 153.4rem;}} 

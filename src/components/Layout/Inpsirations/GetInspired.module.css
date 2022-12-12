@@ -1,0 +1,55 @@
+.inspiredContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inspiredHeader {
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.inpiredLink {
+  font-size: 1.5rem;
+  color: #3a10e5;
+}
+
+.inpiredHeadres {
+  font-size: 1.8rem;
+}
+
+.inpiredHeadres:hover {
+  color: #3a10e5;
+  cursor: pointer;
+}
+
+.headersContainer {
+  margin-top: 1rem;
+  width: 25rem;
+}
+
+.inspiredImg {
+  position: relative;
+  left: 15rem;
+  bottom: 40rem;
+  width: 55rem;
+  height: 30rem;
+
+  margin-left: 15rem;
+
+  cursor: pointer;
+}
+
+.headerResources {
+  position: relative;
+  bottom: 7.5rem;
+  right: 40rem;
+}
+
+.resourcesHeadres {
+  font-size: 3rem;
+}
+
+.resourcesHeadres:hover {
+  color: #3a10e5;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.internetLogos {
+  margin-top: 0.5rem;
+  width: 2rem;
+  height: 1.5rem;
+  gap: 1rem;
+}
+
+.internetLogos:hover {
+  cursor: pointer;
+  color: #3a10e5;
+}

@@ -1,0 +1,85 @@
+.btnContainer {
+  display: flex;
+  gap: 1rem;
+
+  width: 80%;
+  padding-top: 1rem;
+
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  border: 0.1rem #000 solid;
+
+  width: 15rem;
+  height: 3rem;
+
+  font-size: 1.3rem;
+
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 0.2rem #3a10e5 solid;
+}
+
+.arrow {
+  position: relative;
+  left: 1.2rem;
+
+  width: 1.5rem;
+  height: 1.3rem;
+}
+
+.arrow1 {
+  position: relative;
+  left: 7.5rem;
+
+  width: 1.5rem;
+  height: 1.3rem;
+}
+
+.pTxt {
+  position: relative;
+  left: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.coursesItem {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fff;
+
+  border: 0.1rem solid #000;
+}
+
+.btnCourses {
+  font-size: 1.3rem;
+  cursor: pointer;
+
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+
+  background-color: #fff;
+  border: none;
+}
+
+.btnCourses:hover {
+  background-color: #dcdcdc;
+}
+
+.lvlContainer {
+  height: 2rem;
+  z-index: 9998;
+}
+
+.coursesContainer {
+  height: 2rem;
+  z-index: 9998;
+}

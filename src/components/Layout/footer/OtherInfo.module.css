@@ -1,0 +1,41 @@
+.otherContainer {
+  display: flex;
+
+  position: relative;
+  left: 60rem;
+  bottom: 25rem;
+}
+
+.headerTxt {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.7rem;
+}
+
+.ptext {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.8rem;
+}
+
+.ptext:hover {
+  cursor: pointer;
+  color: #3a10e5;
+}
+
+.resourcesContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.otherContainer2 {
+  position: relative;
+  left: 10rem;
+}
+
+.containerPlan {
+  position: relative;
+  top: 7.8rem;
+}

@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  width: 150%;
+
+  position: relative;
+  top: 15rem;
+  right: 71.8rem;
+
+  border-top: 1px solid #000;
+}
+
+@media (max-width: 390) {
+  .footer {
+    display: flex;
+    width: 150%;
+
+    position: relative;
+    top: 15rem;
+    right: 71.8rem;
+
+    border-top: none;
+  }
+}
+
+

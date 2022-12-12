@@ -1,0 +1,29 @@
+.pagesBtn {
+  display: flex;
+  align-items: center;
+
+  width: 15rem;
+  height: 5rem;
+
+  position: relative;
+  top: 1rem;
+
+  font-size: 1.7rem;
+  font-weight: 600;
+
+  background-color: #fff0e5;
+  border: 3px solid #000;
+  border-radius: 0.5rem;
+}
+
+.pagesBtn:hover {
+  cursor: pointer;
+  background-color: #ccc0b7;
+  color: #272727;
+}
+
+.pagesBtn:active {
+  background-color: #000;
+  color: #fff;
+}
+

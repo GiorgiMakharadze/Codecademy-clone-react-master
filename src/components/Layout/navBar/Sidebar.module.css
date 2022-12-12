@@ -1,0 +1,62 @@
+.btn__lftbar {
+  background-color: #fff0e5;
+
+  font-size: 2rem;
+  font-weight: bold;
+
+  border: none;
+
+  margin-top: 4rem;
+  padding: 1rem;
+
+  cursor: pointer;
+
+  position: sticky;
+}
+
+.btn__lftbar:hover {
+  color: #3a10e5;
+}
+
+.sidebar__languages {
+  position: sticky;
+  display: flex;
+
+  flex-direction: column;
+  font-size: 2.5rem;
+
+  margin-left: 1.1rem;
+
+  gap: 1.5rem;
+}
+
+.arrowIcon {
+  height: 1.4rem;
+  width: 1.4rem;
+
+  margin-left: 0.5rem;
+}
+
+.Quizbar {
+  height: 15rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #3a10e5;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px){
+  .sidebarContainer{
+    position: relative;
+    right: 4rem;
+  }
+
+}

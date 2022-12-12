@@ -1,0 +1,100 @@
+.card {
+  display: flex;
+
+  min-height: 42rem;
+  width: 28rem;
+
+  margin-top: 2rem;
+
+  background-color: #fff;
+  border: 1px #000 solid;
+}
+
+.card:hover {
+  box-shadow: -8px 5px #000;
+  transform: translateY(-1rem);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.frontEnd {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.career {
+  font-size: 1.6rem;
+}
+
+.pro {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.boldText {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-right: 0.3rem;
+}
+
+.frontEndImg {
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  width: 60%;
+}
+
+.descriptionContainer {
+  margin-right: 2.3rem;
+}
+
+.description {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.lessons {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid #d3d3d3;
+  font-size: 1.5rem;
+}
+
+.essentials {
+  display: inline-block;
+  position: relative;
+
+  border: 0.1rem #000;
+  background-color: #f1dbde;
+
+  width: 8rem;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+
+  text-align: center;
+
+  margin: 0;
+
+  margin-left: 75%;
+  margin-top: 23%;
+}
+
+.bull {
+  position: relative;
+  bottom: 0.2rem;
+  font-size: 3.3rem;
+}

@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.sidebar {
+  width: 250%;
+
+  padding-left: 140%;
+}
+
+.explore__catalog {
+  font-size: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.top__path {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.mainContent {
+  padding-left: 25%;
+}
+
+.prochi {
+  font-size: 5rem;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px){
+  .mainContent{
+    position: relative;
+    right: rem;
+  }
+}
