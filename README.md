@@ -1,5 +1,5 @@
 # Project Title
-codeCademy Blog Webpage Clone.
+💻codeCademy Blog Webpage Clone. 
 
 ## Description
 It's a codeCademy Blog Webpage Clone. This project does not have any special functionality in it.
